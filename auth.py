@@ -1,5 +1,5 @@
 import streamlit as st
-import streamlit_authenticator as stauth
+# import streamlit_authenticator as stauth
 
 def st_auth():
     if st.session_state.starts == "out":
