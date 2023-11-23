@@ -7,7 +7,7 @@ def st_auth():
             st.session_state.starts = "in"
             st.rerun()
     else:
-        if st.button("Wanna out?"):
+        if st.button("Wanna leave?"):
             st.session_state.starts = "out"
             st.session_state.conversation = []
             st.rerun()
